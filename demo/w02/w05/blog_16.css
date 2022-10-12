@@ -1,22 +1,68 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 ;
     box-sizing: border-box;
 }
 
 :root {
+    --primary: #645cff;
+    --primary-dark: #3c3799;
     --grey-light: #f1f5f9;
+    --gery: #64748b;
     --grey-dark: #0f172a;
+    --max-width: 1170px;
+    --fluid-width: 90vw;
     --border--radius: 2rem;
+
 }
 .blogs {
     padding: 4rem 0;
 }
 
 .blogs-center{
-    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: var(--fluid-width);
+    max-width: var(--max-width);
     margin: 0 auto;
-    max-width: 30rem;
+
+}
+.blogs-center2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    width: var(--fluid-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+
+}
+
+.blog-content{
+    padding-bottom: 1rem;
+}
+
+.blog-content span{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary);
+    margin: 0.5rem 0;
+}
+.blog-content h3{
+    text-transform: capitalize;
+    color: var(--primary-dark);
+    margin: 0.5rem 0;
+}
+
+.blog-content p{
+    color: var(--gery);
+    margin-bottom: 0.5rem;
+}
+
+.blog-content a{
+    text-transform: capitalize;
+    color: var(--primary-dark);
+    letter-spacing: 1px;
 }
 
 body{
