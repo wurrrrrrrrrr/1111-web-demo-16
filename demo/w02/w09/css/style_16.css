@@ -367,3 +367,63 @@ body{
 .tiles-9{
   grid-area: i;
 }
+
+/**/
+
+.main-resume-section{
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 30fr 70fr;
+}
+
+.resume-left{
+  height: 100%;
+  background-color: #00324a;
+}
+.resume-right{
+  height: 100%;
+  background-color: #d5e0e5;
+}
+
+.right-content{
+  padding: 2rem 3rem;
+}
+.right-title{
+  text-transform: uppercase;
+  color: #2f80ed;
+  margin-bottom: 1.2rem;
+}
+.about-text{
+  color: #718096;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.2rem 0;
+}
+
+.career {
+  font-size: 1.2rem;
+  color: #94d9ea;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.profile img{
+  width: 100%;
+
+  border-radius: 50%;
+}
+.left-content{
+  padding: 2rem 2.5rem;
+}
