@@ -1,8 +1,8 @@
 ## Github & Vercel URL
 
-[Github URL](https://github.com/htchung/1111-web-demo-id)
+[giturl](https://github.com/wurrrrrrrrrr/1111-web-demo-16)
 
-[Vercel URL](https://1111-web-demo-id-kd9e.vercel.app/)
+[vercel url](https://1111-web-demo-16-g6mx.vercel.app/)
 
 ### W10-P1: show w09-resume locally
 
@@ -10,11 +10,11 @@
 
 ### W10-P2: show w09-resume from Vercel
 
-![](w10-p2.png)
+![](w10p2.png)
 
 ### W10-P3: show w10_xx.md from Github
 
-![](w10-p3.png)
+![](w10p3.png)
 
 ### W10-logs: show all logs of Week 9
 
