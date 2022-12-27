@@ -18,5 +18,8 @@ function showpage(index) {
         case 5:
             p.innerHTML = `<iframe src="./demo/w02/w08/landing_16.html" width=100% height="100%" />`
             break;
+        case 6:
+            p.innerHTML = `<iframe src="./demo/w02/w09/resume_16.html" width=100% height="100%" />`
+            break;
     }
 }
