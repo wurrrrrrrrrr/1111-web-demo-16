@@ -209,6 +209,16 @@ p {
   gap: 1.5rem;
 }
 
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 .show-classdemo {
   width: 100vw;
   height: calc(100vh - 4rem);
@@ -299,15 +309,6 @@ body{
 }
 
 
-.navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: var(--clr-white);
-  z-index: 2;
-  box-shadow: var(--light-shadow);
-}
 
 
 

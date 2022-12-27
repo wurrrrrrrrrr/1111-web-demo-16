@@ -1,0 +1,23 @@
+{
+  "name": "1111-web-demo-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurrrrrrrrrr/1111-web-demo-16.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wurrrrrrrrrr/1111-web-demo-16/issues"
+  },
+  "homepage": "https://github.com/wurrrrrrrrrr/1111-web-demo-16#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
